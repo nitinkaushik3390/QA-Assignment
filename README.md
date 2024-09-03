@@ -69,7 +69,7 @@ https://docs.github.com/en/rest/users/users?apiVersion=2022-11-28#get-the-authen
   
   ### Directory & File details
 
-  Go to the Folder 'Task 1' in this repository. Postman JSON file is attached in which all the above mentioend cases have been automated. In order to run these tests, Download & Import this JSON file into your postman app and then execute this collection using the Postman Runner.
+  Go to the Folder 'Task 1' (URL - https://github.com/nitinkaushik3390/QA-Assignment/tree/main/Task%201) in this repository. Postman JSON file is attached in which all the above mentioend cases have been automated. In order to run these tests, Download & Import this JSON file into your postman app and then execute this collection using the Postman Runner.
 
   To run this collection through Command Line, Download this JSON file and then setup nodejs & newman on your local machine. After that, open command prompt on your machine and run this command - newman run <path of the downloaded postman collection file> -r cli
 
