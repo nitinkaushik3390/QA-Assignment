@@ -172,4 +172,4 @@ Thoroughly review the subsequent user story and create test scenarios and test c
 
 ### Directory & File details
 
-  Locate and navigate to the folder 'Part 2 - Manual Testing' in this repository. Inside this folder, an excel sheet named 'Part 2-TestSuite.xlsx' is attached. In this sheet, test scenarios & test cases have been listed.
+  Locate and navigate to the folder 'Part 2 - Manual Testing' (URL - https://github.com/nitinkaushik3390/QA-Assignment/tree/main/Part%202%20-%20Manual%20Testing) in this repository. Inside this folder, an excel sheet named 'Part 2-TestCases.xlsx' is attached. In this sheet, test cases have been listed.
