@@ -1,5 +1,3 @@
-# QA-Assignment
-
 # QA Assignment Overview
 
 ##    TASKS Performed
