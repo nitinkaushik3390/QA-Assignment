@@ -67,11 +67,15 @@ https://docs.github.com/en/rest/users/users?apiVersion=2022-11-28#get-the-authen
     - Body: {"bio": "Your new bio content here."}
     - Expected Status Code: 200 OK
   
-  ### Directory & File details
+### Directory & File details
 
-  Go to the Folder 'Task 1' (URL - https://github.com/nitinkaushik3390/QA-Assignment/tree/main/Task%201) in this repository. Postman JSON file is attached in which all the above mentioend cases have been automated. In order to run these tests, Download & Import this JSON file into your postman app and then execute this collection using the Postman Runner.
+Go to the Folder 'Task 1' (URL - https://github.com/nitinkaushik3390/QA-Assignment/tree/main/Part%201/Task%201) in this repository. Postman JSON file is attached in which all the above mentioend cases have been automated. In order to run these tests, Download & Import this JSON file into your postman app and then execute this collection using the Postman Runner.
 
-  To run this collection through Command Line, Download this JSON file and then setup nodejs & newman on your local machine. After that, open command prompt on your machine and run this command - newman run <path of the downloaded postman collection file> -r cli
+To run this collection through Command Line, Download this JSON file and then setup nodejs & newman on your local machine. After that, open command prompt on your machine and run this command - newman run <path of the downloaded postman collection file> -r cli
+
+Test Cases file attached:  
+
+Part 1-Testcases.xlsx - In this sheet, all the executed test cases have been listed.
 
 ## Task 2
 
@@ -112,19 +116,19 @@ Simulate Concurrent Users Accessing the GET /users Endpoint: (Public endpoint)
     - Provide the scripts for load.
     - Include documents and sample reports or screenshots from the test management tool showing the test cases and results.
  
-  ### Directory & File details
+### Directory & File details
 
-  Locate and navigate to the folder 'Task 2' in this repository. In this folder, JMeter test suite file 'User API Load Thread.jmx' is attached. Open this file in your JMeter tool (UI) to view & execute the Test Suite. The following APIs have been included as a part of this load test:
+Locate and navigate to the folder 'Task 2' (URL - https://github.com/nitinkaushik3390/QA-Assignment/tree/main/Part%201/Task%202) in this repository. In this folder, JMeter test suite file 'User API Load Thread.jmx' is attached. Open this file in your JMeter tool (UI) to view & execute the Test Suite. The following APIs have been included as a part of this load test:
 
-  1. GET User: No. of users - 200, Ramp up period - 10s. The CSV file 'testdata.csv' is used to pass the data of the concurrent users.
-  2. Update User (Methos Used - PATCH): No. of users - 200, Ramp up period - 10s. The CSV file 'testdata1.csv' is used to pass the data of the concurrent users & their updated fields along with the respective value.
+1. GET User: No. of users - 200, Ramp up period - 10s. The CSV file 'testdata.csv' is used to pass the data of the concurrent users.
+2. Update User (Methos Used - PATCH): No. of users - 200, Ramp up period - 10s. The CSV file 'testdata1.csv' is used to pass the data of the concurrent users & their updated fields along with the respective value.
  
-  Additional Attachments:
+Additional Attachments:
 
-  1. testdata.csv - Used to pass the data of concurrent users for GET User API.
-  2. testdata1.csv - used to pass the data of the concurrent users & their updated fields along with the respective value for Update User API.
-  3. Summary.csv - Summary report of the executed load test. It captures these details - Average time taken (ms.), Min time, Max time, Std. Dev., Error %, Throughput,	Received KB/sec,	Sent KB/sec,	Avg. Bytes.
-  4. Part 1-Testcases.xlsx - In this sheet, all the executed test cases have been listed.
+1. testdata.csv - Used to pass the data of concurrent users for GET User API.
+2. testdata1.csv - used to pass the data of the concurrent users & their updated fields along with the respective value for Update User API.
+3. Summary.csv - Summary report of the executed load test. It captures these details - Average time taken (ms.), Min time, Max time, Std. Dev., Error %, Throughput,	Received KB/sec,	Sent KB/sec,	Avg. Bytes.
+
 
 # **Part 2 - Manual Testing**
 
