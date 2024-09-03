@@ -162,7 +162,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "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",
+									"value": "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",
 									"type": "string"
 								}
 							]
@@ -227,67 +227,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "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",
-									"type": "string"
-								}
-							]
-						},
-						"method": "GET",
-						"header": [
-							{
-								"key": "Accept",
-								"value": "application/vnd.github+json"
-							},
-							{
-								"key": "X-GitHub-Api-Version",
-								"value": "2022-11-28"
-							}
-						],
-						"url": {
-							"raw": "https://api.github.com/user",
-							"protocol": "https",
-							"host": [
-								"api",
-								"github",
-								"com"
-							],
-							"path": [
-								"user"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "GET User_Valid_token Copy",
-					"event": [
-						{
-							"listen": "test",
-							"script": {
-								"exec": [
-									"var res = pm.response.json();\r",
-									"\r",
-									"pm.test(\"Status code is 200\", function () {\r",
-									"    pm.response.to.have.status(200);\r",
-									"});\r",
-									"\r",
-									"pm.test(\"Response time is less than 500ms\", function () {\r",
-									"    pm.expect(pm.response.responseTime).to.be.below(500);\r",
-									"});\r",
-									""
-								],
-								"type": "text/javascript",
-								"packages": {}
-							}
-						}
-					],
-					"request": {
-						"auth": {
-							"type": "bearer",
-							"bearer": [
-								{
-									"key": "token",
-									"value": "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",
+									"value": "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",
 									"type": "string"
 								}
 							]
@@ -351,7 +291,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "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",
+									"value": "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",
 									"type": "string"
 								}
 							]
